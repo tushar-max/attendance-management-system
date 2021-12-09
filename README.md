@@ -1,0 +1,2 @@
+# attendance-management-system
+It is a user-friendly, flexible and full featured student attendance management tool which automates the attendance of the students.  It recognises all the faces present in the frame and uploads the names to the Excel Sheet.  And also sends the email to the students about their attendance status; i.e; whether the student is present or absent. The aim is to get the results with the accuracy of 99.97%
