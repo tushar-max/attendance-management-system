@@ -6,7 +6,7 @@ import smtplib
 def email_snd(ab,pre):
     s = smtplib.SMTP('smtp.gmail.com', 587)
     s.starttls()
-    s.login("eyrc.vb.2343@gmail.com", "HameshaHasteRahoJi")
+    s.login("eyrc.vb.2343@gmail.com", "Your Password")
     for email in ab:
         message = "Dear student,\nYou were absent in today's class.Please don't miss your classes.\nRegards,\nSubject Coordinator.\n (This is system generated message. Please contact to your faculty if you are having any issues.)"
         s.sendmail("eyrc.vb.2343@gmail.com", email, message)
